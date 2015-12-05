@@ -15,10 +15,9 @@ y darles permisos de ejecución:
 
 a continuacion:
 
-   ` ./Install <comando del terminal deseado> `
+   ` ./Install <comando para ejecutar terminal deseado> `
 
 ## DESINSTALACIÓN
 
-```
-   ./uninstall
-```
+   ` ./uninstall `
+
