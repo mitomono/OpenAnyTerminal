@@ -8,9 +8,9 @@ solo con pulsar con el botón derecho del ratón y seleccionar la opción.
 
 ## INSTALACIÓN
 ```
-    * ./Install <comando del terminal deseado>
+   ./Install <comando del terminal deseado>
 ```
 ## DESINSTALACIÓN
 ```
-    * ./uninstall
+   ./uninstall
 ```
