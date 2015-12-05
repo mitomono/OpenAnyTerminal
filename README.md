@@ -10,15 +10,12 @@ solo con pulsar con el botón derecho del ratón y seleccionar la opción.
 Descargar los archivos, situarse en la carpeta donde se se encuentran
 y darles permisos de ejecución:
 
-```
-    chmod +x ./*
-```
+
+   ` chmod +x ./* `
 
     a continuacion:
 
-```
-   ./Install <comando del terminal deseado>
-```
+   ` ./Install <comando del terminal deseado> `
 
 ## DESINSTALACIÓN
 
