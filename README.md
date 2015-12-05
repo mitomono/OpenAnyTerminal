@@ -13,7 +13,7 @@ y darles permisos de ejecución:
 
    ` chmod +x ./* `
 
-    a continuacion:
+a continuacion:
 
    ` ./Install <comando del terminal deseado> `
 
