@@ -7,16 +7,21 @@ de comandos preferido, pudiendo ser cualquiera, en el directorio en el que desee
 solo con pulsar con el botón derecho del ratón y seleccionar la opción.
 
 ## INSTALACIÓN
-    Descargar los archivos, situarse en la carpeta donde se se encuentran
-    y darles permisos de ejecución:
-    ```
+Descargar los archivos, situarse en la carpeta donde se se encuentran
+y darles permisos de ejecución:
+
+```
     chmod +x ./*
-    ```
+```
+
     a continuacion:
+
 ```
    ./Install <comando del terminal deseado>
 ```
+
 ## DESINSTALACIÓN
+
 ```
    ./uninstall
 ```
