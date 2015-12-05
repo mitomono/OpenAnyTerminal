@@ -15,7 +15,7 @@ y darles permisos de ejecución:
 
 a continuacion:
 
-   ` ./Install <comando para ejecutar terminal deseado> `
+   ` ./Install <comando para ejecutar el terminal deseado> `
 
 ## DESINSTALACIÓN
 
