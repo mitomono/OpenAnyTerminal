@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp ./OpenAnyTerminal.py ./open-any-terminal.py
+./conf.py
+mv ./open-any-terminal.py ~/.local/share/nautilus-python/extensions/
+
+nautilus -q

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm ~/.local/share/nautilus-python/extensions/open-any-terminal.py*
+nautilus -q
