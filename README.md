@@ -11,4 +11,6 @@ solo con pulsar con el botón derecho del ratón y seleccionar la opción.
     * ./Install <comando del terminal deseado>
 ```
 ## DESINSTALACIÓN
-    * `./uninstall`
+```
+    * ./uninstall
+```
