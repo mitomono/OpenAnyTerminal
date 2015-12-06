@@ -35,12 +35,15 @@ Es necesario instalar **Python** en nuestra distribución y el paquete **nautilu
 Descargar los archivos, situarse en la carpeta donde se se encuentran
 y darles permisos de ejecución:
 
-
    ` chmod +x ./* `
 
 a continuacion:
 
-   ` ./Install`
+` python install.py ` 
+
+o
+
+` ./install.py `
    
    se le preguntara que cual es el comando para abrir el terminal que desee, escriba el comando que lance el terminal elegido y pulse intro.
 
