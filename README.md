@@ -39,12 +39,12 @@ y darles permisos de ejecución:
 
 a continuacion:
 
-` python install.py ` 
+` python install.py `
 
 o
 
 ` ./install.py `
-   
+
    se le preguntara que cual es el comando para abrir el terminal que desee, escriba el comando que lance el terminal elegido y pulse intro.
 
 algunos ejemplos de comandos para ejecutar terminales:
@@ -59,9 +59,12 @@ etc
 
 Previamente se debera de tener instalado uno de estos terminales
 
+una vez instalado reiniciar nautilus con:
+
+` nautilus -q`
+
 ------
 ### DESINSTALACIÓN
 En la carpeta donde se descargaron los archivos:
 
    ` ./uninstall `
-
