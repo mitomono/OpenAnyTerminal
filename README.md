@@ -45,18 +45,20 @@ a continuacion:
    se le preguntara que cual es el comando para abrir el terminal que desee, escriba el comando que lance el terminal elegido y pulse intro.
 
 algunos ejemplos de comandos para ejecutar terminales:
-> `gnome-terminal` -> *terminal por defecto de gnome*
-> `terminator`
-> `xterminal`
-> `terminology`
-> `finalterm`
-> `byobu`
-> etc
+* `gnome-terminal` *terminal por defecto de gnome*
+* `terminator`
+* `xterminal`
+* `terminology`
+* `finalterm`
+* `byobu`
+
+etc
 
 Previamente se debera de tener instalado uno de estos terminales
 
 ------
 ### DESINSTALACIÓN
 En la carpeta donde se descargaron los archivos:
+
    ` ./uninstall `
 
