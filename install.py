@@ -1,6 +1,7 @@
 #! /usr/bin/python
 
 import shutil, os, getpass
+import gettext
 
 user = getpass.getuser()
 orig = './OpenAnyTerminal.py'
@@ -15,8 +16,12 @@ shutil.copy(orig, dest)
 f = open(orig, 'r')
 
 # Read full file, save the text and replace the string "comando" by command_term
+gettext.textdomain("install")
+gettext.bindtextdomain("install", "./mo")
+
 texto = f.read()
 texto = texto.replace("comando", command_term)
+texto = texto.replace("string", gettext.gettext('Open terminal here'))
 
 # Close file
 f.close()

@@ -63,6 +63,11 @@ una vez instalado reiniciar nautilus con:
 
 ` nautilus -q`
 
+o reiniciando la sesion o el ordenador, si se queda bloqueado.Una vez reiniciado
+la extension apararecera en el menu del boton secundario de nautilus.
+
+disfrute.
+
 ------
 ### DESINSTALACIÓN
 En la carpeta donde se descargaron los archivos:
