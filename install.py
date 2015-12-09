@@ -21,7 +21,7 @@ gettext.bindtextdomain("install", "./mo")
 
 texto = f.read()
 texto = texto.replace("comando", command_term)
-texto = texto.replace("string", gettext.gettext('Open terminal here'))
+texto = texto.replace("string", gettext.gettext('Open ' + command_term +' here'))
 
 # Close file
 f.close()
