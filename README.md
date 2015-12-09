@@ -71,6 +71,10 @@ disfrute.
 ### DESINSTALACIÓN
 En la carpeta donde se descargaron los archivos:
 
-   ` ./uninstall `
+` python uninstall.py `
+
+o
+
+` ./uninstall.py `
    
 despues de reiniciar nautilus, la extensión quedará desinstalada
