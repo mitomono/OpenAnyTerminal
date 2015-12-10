@@ -69,12 +69,8 @@ disfrute.
 
 ------
 ### DESINSTALACIÓN
-En la carpeta donde se descargaron los archivos:
+aceder a la carpeta ~/.local/share/nautilus-python/extensions/:
 
-` python uninstall.py `
+` cd ~/.local/share/nautilus-python/extensions `
 
-o
-
-` ./uninstall.py `
-   
-despues de reiniciar nautilus, la extensión quedará desinstalada
+y borrar el archivo o archivos con extendion .py y .pyc del comando que queramos eliminar
