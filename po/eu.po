@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-06 23:58+0100\n"
-"PO-Revision-Date: 2015-12-07 02:09+0100\n"
+"POT-Creation-Date: 2015-12-10 00:20+0100\n"
+"PO-Revision-Date: 2015-12-10 00:47+0100\n"
 "Last-Translator: Adrin Lara Roldn <mitomono@gmail.com>\n"
 "Language-Team: Basque\n"
 "Language: eu\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: install.py:23
-msgid "Open terminal here"
-msgstr "ireki terminal bat hemen"
+#: install.py:11
+msgid "Enter the command you want to open in the menu: "
+msgstr "Sartu menuan ireki nahi duzun komandoa: "
+
+#: install.py:36
+msgid "Open "
+msgstr "Ireki "
+
+#: install.py:36
+msgid " here"
+msgstr " hemen"

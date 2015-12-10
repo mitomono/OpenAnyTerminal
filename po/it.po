@@ -7,16 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-06 23:58+0100\n"
-"PO-Revision-Date: 2015-12-07 02:03+0100\n"
+"POT-Creation-Date: 2015-12-10 00:20+0100\n"
+"PO-Revision-Date: 2015-12-10 00:55+0100\n"
 "Last-Translator: Adrin Lara Roldn <mitomono@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: install.py:23
-msgid "Open terminal here"
-msgstr "aprire un terminale qui"
+#: install.py:11
+msgid "Enter the command you want to open in the menu: "
+msgstr "Inserire il comando che si desidera aprire nel menu: "
+
+#: install.py:36
+msgid "Open "
+msgstr "Aprire "
+
+#: install.py:36
+msgid " here"
+msgstr " qui"
