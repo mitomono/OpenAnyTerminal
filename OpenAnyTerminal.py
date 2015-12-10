@@ -6,6 +6,10 @@ import urllib
 import subprocess
 
 TERMINAL = 'comando'
+##
+# algunas cadenas para editores de texto que admiten un directorio
+# como parametro
+CADENAS = ['sublime', 'sub', 'code', 'VS', 'atom']
 
 
 def uriPath(nautilus_file):
@@ -24,16 +28,25 @@ def uriPath(nautilus_file):
                 return escritorio
 
 
-def getTerminal():
+def getTerminal():    
     return TERMINAL
 
 
 def runTerminal(path):
     # Se cambia al directorio actual de trabajo
     # y se llama al terminal elegido
-    os.chdir(path)
-    subprocess.call([getTerminal()])
-
+    editor = False
+    for cmd in CADENAS:
+        if TERMINAL.find(cmd) != -1:
+            editor = True
+            break
+    
+    if editor:
+        os.chdir(path)
+        subprocess.call([getTerminal(),path])   
+    else:
+        os.chdir(path)
+        subprocess.call([getTerminal(),path])
 
 ##
 # Añade la nueva entrada al menú
