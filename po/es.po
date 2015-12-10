@@ -28,4 +28,4 @@ msgstr "Abrir "
 
 #: install.py:36
 msgid " here"
-msgstr "aquí"
+msgstr " aquí"
