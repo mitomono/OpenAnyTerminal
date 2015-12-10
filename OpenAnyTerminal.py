@@ -48,7 +48,7 @@ class ColumnExtension_comando(GObject.GObject, Nautilus.MenuProvider):
     def get_file_items(self, window, nautilus_files):
         if nautilus_files != [] and os.path.isdir(uriPath(nautilus_files[0])):
             item = Nautilus.MenuItem(
-                name='TerminalExtension::Open comando here',
+                name='ColumnExtension_comando::Open comando here',
                 label='string',
                 tip='string'
             )
@@ -58,7 +58,7 @@ class ColumnExtension_comando(GObject.GObject, Nautilus.MenuProvider):
 
     def get_background_items(self, window, nautilus_file):
         item = Nautilus.MenuItem(
-            name='TerminalExtension::Open comando here',
+            name='ColumnExtension_comando::Open comando here',
             label='string',
             tip='string'
         )
