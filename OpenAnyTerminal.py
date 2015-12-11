@@ -46,7 +46,7 @@ def runTerminal(path):
         subprocess.call([getTerminal(),path])   
     else:
         os.chdir(path)
-        subprocess.call([getTerminal(),path])
+        subprocess.call([getTerminal()])
 
 ##
 # Añade la nueva entrada al menú
